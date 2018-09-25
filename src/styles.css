@@ -15,6 +15,7 @@ body {
 .nav-color {
   /* background-color: transparent; */
  /*  padding: 15px; */
+  background-color: rgba(0,0,0,0.1);
   transition: all 0.7s ease;
   border: none;
 }
@@ -24,7 +25,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-  color:  pink;
+  color:  #FFB6C1;
   font-weight: bold;
 }
   
@@ -86,7 +87,7 @@ body {
   padding-bottom: 20px;
 /*   background-color:   #ff4d94; */
   margin: 10px;
-  color: black;
+  color: #808080;
 /*   font-size: 18px; */
   padding-right: 0;
  /*  border-radius: 5px; */
@@ -110,8 +111,10 @@ body {
 }
 
 .nice-btn:hover {
-  background: #ff4d94;
-  color: #f0f0e6; 
+  background: #FFB6C1;
+  color: #7f7f7f; 
+  font-weight: bold;
+  border-radius: 5px;
 }
  
 .box {
@@ -125,6 +128,7 @@ body {
   margin: 0 auto; 
   height: 350px;
   width: 80%;
+  border-radius: 5px;
    /* width: 700px;  */
 }
 

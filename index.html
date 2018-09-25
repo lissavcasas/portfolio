@@ -14,55 +14,73 @@
 
 <body>
     <!-- Navbar-->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Melissa</a>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top nav-color">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">MC</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#inicio" class="nav-text">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#proyectos" class="nav-text">Proyectos</a>
+                        </li>
+                        <li>
+                            <a href="#habilidades" class="nav-text">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#contacto" class="nav-text">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#inicio" class="nav-text">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#proyectos" class="nav-text">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="#habilidades" class="nav-text">Habilidades</a>
-                    </li>
-                    <li>
-                        <a href="#contacto" class="nav-text">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Home-->
-    <div class="jumbotron">
-        <div class="container text-center">
-            <h1>Melissa Casas</h1>
-            <!-- <img src="src/me.jpg" class="img-responsive" style="width:50%" alt=""> -->
-            <p>¡Hola! Soy Melissa, front-end Developer con background en administración de Turismo y marketing estratégico.
-                Mi curiosidad a nivel tecnológico y mis ganas de seguir aprendiendo me impulsaron a iniciar una carrera en
-                tecnología. Disfruto resolver problemas creativamente y encuentro en el código a un amigo muy valioso que
-                me permite convertir ideas en realidad, haciendo cosas mágicas posibles. Como developer, aspiro a desarrollar
-                productos tecnológicos innovadores que ayuden a facilitar la vida de las personas y generen un impacto social
-                positivo.
-            </p>
-            <div class="row">
-                <div class="col-md-12 font-size-18 flex-center-center">
-                    <a href="https://drive.google.com/open?id=16YjzyRzIqPaPFffk1unMFZGLSIy1qA3P">
-                        <button class="btn btn-primary bg-blue"> Ver mi CV</button>
-                    </a>
+        </nav>
+        <div id="home" class="home-container">
+            <div class="big-container text-center">
+                <div class="sm-container">
+                    <div class="text-container">
+                        <p class="font-size-7rem">Melissa Casas</p>
+                        <p class="font-size-2rem">Front-end Developer</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+    <!-- About me-->
+    <section id="about-me">
+        <div class="jumbotron">
+            <div class="container text-center about-box">
+                <h1>Sobre mí</h1>
+                <div class="col-md-6">
+                    <img src="src/me.jpg" class="img-responsive photo" alt="">
+                </div>
+                <div class="col-md-6">
+                    <p class="resume">¡Hola! Soy Melissa, front-end Developer con background en administración de Turismo y marketing estratégico.
+                        Mi curiosidad a nivel tecnológico y mis ganas de seguir aprendiendo me impulsaron a iniciar una carrera
+                        en tecnología. Disfruto resolver problemas creativamente y encuentro en el código a un amigo muy
+                        valioso que me permite convertir ideas en realidad, haciendo cosas mágicas posibles. Como developer,
+                        aspiro a desarrollar productos tecnológicos innovadores que ayuden a facilitar la vida de las personas
+                        y generen un impacto social positivo.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 btn-container">
+                        <a href="https://drive.google.com/open?id=16YjzyRzIqPaPFffk1unMFZGLSIy1qA3P">
+                            <button class="btn cv-btn"> Ver mi CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Projects-->
     <section id="projects">
         <div class="container-fluid bg-3 text-center">

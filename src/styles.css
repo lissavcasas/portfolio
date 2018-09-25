@@ -1,17 +1,128 @@
- /* Remove the navbar's default margin-bottom and rounded borders */ 
- .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
-  
-  /* Add a gray background color and some padding to the footer */
-  footer {
-    background-color: #f2f2f2;
-   /*  background-color: rgba(232, 53, 86, 1); */
-    padding: 25px;
-  }
-
 body {
     /* font-size: 10px; */
-    font-family: Arial,Helvetica,sans-serif;
+   /*  background-color:  #ff7376; */
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* NAVBAR */
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.nav-color {
+  background-color: transparent;
+  transition: all 0.7s ease;
+  padding: 15px;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color:  white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color:  black;
+  font-weight: bold;
+}
+  
+.home-container {
+  background-image: url(../src/pink.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f2f2f2;
+  height: 100vh;
+}
+
+.big-container {
+  font-family: 'Helvetica', cursive;
+   /*  background-color: rgba(0,0,0,0.1); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sm-container {
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  padding: 45px;
+}
+
+.font-size-7rem {
+  font-size: 7rem;
+}
+.font-size-2rem {
+  font-size: 25px;
+}
+
+/* About me  */
+
+.photo {
+  border: 10px solid #F5C319;
+  border-radius: 5px;
+  margin: auto;
+  width:100%;
+}
+
+.jumbotron{
+  background-color:#fcfcfc;
+ /*  box-shadow: 0px 8px 10px #999; */
+}
+
+.resume {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+/*   background-color:   #ff4d94; */
+  margin: 10px;
+  color: black;
+/*   font-size: 18px; */
+  padding-right: 0;
+ /*  border-radius: 5px; */
+}
+
+.btn-container {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cv-btn {
+  background: #7f7f7f;
+  color: white;
+  border: 1px solid #7f7f7f;
+  border-radius: 5px;
+  margin-bottom: 1.25em; 
+}
+
+.cv-btn:hover {
+  background: #ff4d94;
+  color: #f0f0e6; 
+}
+ 
+.about-box {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+   /*  background-color: rgba(232, 53, 86, 1); */
+  padding: 25px;
+}
+
+
+

@@ -76,8 +76,8 @@ body {
 }
 
 .jumbotron {
+ /*  background-color: #999; */
  /*  background-color:#fcfcfc; */
- /*  box-shadow: 0px 8px 10px #999; */
 }
 
 .resume {
@@ -125,11 +125,11 @@ body {
 
 /* Projects*/
 .screen {
-  margin: 0 auto; 
-  height: 350px;
-  width: 80%;
+/*   margin: 0 auto;  */
+  height: 450px;
+  width: 100%;
   border-radius: 5px;
-   /* width: 700px;  */
+   /* width: 400px; */ 
 }
 
 /* Skills */

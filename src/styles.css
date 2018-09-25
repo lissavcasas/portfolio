@@ -31,7 +31,7 @@ body {
   
 /* Home */
 .home-container {
-  background-image: url(../src/pink.jpg);
+  background-image: url(../src/background.jpg);
   background-size: cover;
   background-attachment: fixed;
   color: #f2f2f2;

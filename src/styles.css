@@ -12,6 +12,7 @@ body {
   border-radius: 0;
 }
 
+
 .nav-color {
   background-color: transparent;
   transition: all 0.7s ease;
@@ -28,6 +29,7 @@ body {
   font-weight: bold;
 }
   
+/* Home */
 .home-container {
   background-image: url(../src/pink.jpg);
   background-size: cover;
@@ -67,14 +69,14 @@ body {
 /* About me  */
 
 .photo {
-  border: 10px solid #F5C319;
-  border-radius: 5px;
+ /*  border: 10px solid #F5C319;
+  border-radius: 5px; */
   margin: auto;
-  width:100%;
+  width:70%;
 }
 
-.jumbotron{
-  background-color:#fcfcfc;
+.jumbotron {
+ /*  background-color:#fcfcfc; */
  /*  box-shadow: 0px 8px 10px #999; */
 }
 
@@ -111,17 +113,70 @@ body {
   color: #f0f0e6; 
 }
  
-.about-box {
+.box {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-top: 0;
 }
 
+/* Projects*/
+
+/* Skills */
+.tech-skills {
+  background-color: #808080;
+  padding: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-skills .icons {
+  color: 	#FFB6C1;
+  margin: 0 1em;
+}
+
+.tech-skills .icons:hover {
+  opacity: 0.7;
+}
+
+.font-subtitle {
+  font-size: 18px;
+  padding-top: 5px;
+  color: #f0f0e6;
+  font-weight: bold;
+}
+
+.icons-size {
+  font-size: 9rem;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.mg-btn {
+  margin-bottom: 25px;
+}
+
+.color-pink {
+  color: 	#FFB6C1;
+}
+
+/* Contact */
+
+/* Footer*/
+
 /* Add a gray background color and some padding to the footer */
 footer {
   background-color: #f2f2f2;
    /*  background-color: rgba(232, 53, 86, 1); */
-  padding: 25px;
+  padding: 1em;
+ /*  display: flex;
+  justify-content: center; */
+}
+
+@media (min-width: 768px) {
+  .mg-btn {
+    margin-bottom: 15px;
+  }
 }
 
 

@@ -15,7 +15,7 @@
 <body>
     <!-- Navbar-->
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top nav-color">
+        <nav class="navbar navbar-inverse navbar-fixed-top nav-color" role="navigation">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -28,22 +28,25 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#inicio" class="nav-text">Inicio</a>
+                            <a href="#home" class="nav-text">Inicio</a>
                         </li>
                         <li>
-                            <a href="#proyectos" class="nav-text">Proyectos</a>
+                            <a href="#about-me" class="nav-text">Sobre mí</a>
                         </li>
                         <li>
-                            <a href="#habilidades" class="nav-text">Habilidades</a>
+                            <a href="#projects" class="nav-text">Proyectos</a>
                         </li>
                         <li>
-                            <a href="#contacto" class="nav-text">Contacto</a>
+                            <a href="#skills" class="nav-text">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="nav-text">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div id="home" class="home-container">
+        <section id="home" class="home-container">
             <div class="big-container text-center">
                 <div class="sm-container">
                     <div class="text-container">
@@ -52,15 +55,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
     <!-- About me-->
     <section id="about-me">
         <div class="jumbotron">
-            <div class="container text-center about-box">
+            <div class="container text-center box">
                 <h1>Sobre mí</h1>
                 <div class="col-md-6">
-                    <img src="src/me.jpg" class="img-responsive photo" alt="">
+                    <img src="src/m.png" class="img-responsive photo" alt="">
                 </div>
                 <div class="col-md-6">
                     <p class="resume">¡Hola! Soy Melissa, front-end Developer con background en administración de Turismo y marketing estratégico.
@@ -82,7 +85,7 @@
         </div>
     </section>
     <!-- Projects-->
-    <section id="projects">
+    <section id="projects" class="heigth-100">
         <div class="container-fluid bg-3 text-center">
             <h3>Mis proyectos</h3>
             <br>
@@ -150,55 +153,53 @@
             </div>
             <br>
             <!-- Skills-->
-            <section id="skills">
-                <div class="tech skills">
-                    <br>
-                    <br>
-                    <h2 class="text-center big-title">Habilidades técnicas</h2>
+            <section id="skills" class="tech-skills">
+                <div class="container mg-btn">
+                    <h1 class="text-center color-pink">Habilidades técnicas</h1>
                     <div class="container">
-                        <div class="row text-center">
+                        <div class="row text-center icons-size">
 
-                            <div class="col-md-4 mg-b-x">
-                                <div class="round">
+                            <div class="col-md-4 mg-btn">
+                                <div class="icons">
                                     <i class="fab fa-js"></i>
                                 </div>
-                                <p>Javascript</p>
+                                <p class="text-center font-subtitle">Javascript</p>
                             </div>
 
-                            <div class="col-md-4 mg-b-x">
-                                <div class="round">
+                            <div class="col-md-4 mg-btn">
+                                <div class="icons">
                                     <i class="fab fa-css3-alt"></i>
                                 </div>
-                                <p>Css3</p>
+                                <p class="text-center font-subtitle">Css3</p>
                             </div>
 
-                            <div class="col-md-4 mg-b-x">
-                                <div class="round">
+                            <div class="col-md-4 mg-btn">
+                                <div class="icons">
                                     <i class="fab fa-html5"></i>
                                 </div>
-                                <p>Html5</p>
+                                <p class="text-center font-subtitle">Html5</p>
                             </div>
 
-                            <div class="col-md-4 mg-b-x">
-                                <div class="round">
+                            <div class="col-md-4 mg-btn">
+                                <div class="icons">
                                     <i class="fab fa-git-square"></i>
                                 </div>
-                                <p>Git</p>
+                                <p class="text-center font-subtitle">Git</p>
                             </div>
 
 
-                            <div class="col-md-4 mg-b-x">
-                                <div class="round">
+                            <div class="col-md-4 mg-btn">
+                                <div class="icons">
                                     <i class="fab fa-github"></i>
                                 </div>
-                                <p>Github</p>
+                                <p class="text-center font-subtitle">Github</p>
                             </div>
 
-                            <div class="col-md-4 mg-b-x">
-                                <div class="round">
+                            <div class="col-md-4 mg-btn">
+                                <div class="icons">
                                     <i class="fab fa-node"></i>
                                 </div>
-                                <p>Node</p>
+                                <p class="text-center font-subtitle">Node</p>
                             </div>
                         </div>
                     </div>

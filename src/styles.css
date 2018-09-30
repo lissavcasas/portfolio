@@ -90,7 +90,12 @@ body {
   color: #808080;
 /*   font-size: 18px; */
   padding-right: 0;
+  text-align:justify;
  /*  border-radius: 5px; */
+}
+
+.justify {
+  text-align:justify;
 }
 
 .btn-container {
@@ -163,9 +168,14 @@ body {
   border-radius: 5px;
 }
 
+.margin {
+  padding: 4em;
+}
+
 .mg-btn {
   margin-bottom: 25px;
 }
+
 
 .color-pink {
   color: 	#FFB6C1;
@@ -180,36 +190,22 @@ body {
   /* justify-content: center; */
 }
 
-.icons-contact {
+.icons-contact a{
   color: #808080;
-  margin: 0 1em;
-}
-
-.icons-contact :hover {
+  font-size: 30px;
+  transition: all .5s ease;
+  }
+  
+.icons-contact a:hover {
   opacity: 0.5;
 }
 
-.icon-foot {
-  font-size: 40px;
+.font-size {
+  font-size: 18px;
+  padding: 10px;
+/*   text-align: center; */
 }
 
-.text {
- /*  font-size: 18px; */
-  /* display: inline; */
- /*  text-align: center; */
-}
-
-.pd-left-30 {
-  padding-left: 40px;
-}
-
-.pd-right-30 {
-  padding-right: 40px;
-}
-/* .font-size-5rem {
-  font-size: 5rem;
-}
- */
 /* Footer*/
 
 /* Add a gray background color and some padding to the footer */
@@ -225,7 +221,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align:justify;
 }
 
 

@@ -1,7 +1,5 @@
 body {
-    /* font-size: 10px; */
-   /*  background-color:  #ff7376; */
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Montserrat', sans-serif;
 }
 
 /* NAVBAR */
@@ -38,8 +36,13 @@ body {
   height: 100vh;
 }
 
+.bg-container {
+  height: 100vh;
+  margin-top: 120px;
+  margin-bottom:  60px;
+}
+
 .big-container {
-  font-family: 'Helvetica', cursive;
    /*  background-color: rgba(0,0,0,0.1); */
   display: flex;
   align-items: center;
@@ -62,6 +65,7 @@ body {
 .font-size-7rem {
   font-size: 7rem;
 }
+
 .font-size-2rem {
   font-size: 25px;
 }
@@ -88,7 +92,7 @@ body {
 /*   background-color:   #ff4d94; */
   margin: 10px;
   color: #808080;
-/*   font-size: 18px; */
+  font-size: 17px;
  /*  padding-right: 0; */
   text-align:justify;
  /*  border-radius: 5px; */
@@ -100,17 +104,19 @@ body {
 }
 
 .btn-container {
-  font-size: 18px;
+  font-size: 17px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .nice-btn {
+  margin-left: 5px;
   background: #7f7f7f;
   color: #f0f0e6;
-  border: 1px solid #7f7f7f;
-  border-radius: 5px;
+  padding: 15px;
+ /*  border: 1px solid #7f7f7f; */
+ /*  border-radius: 5px; */
   margin-bottom: 1.25em; 
   /* margin-top: 30px; */
   /* margin-bottom: 30px; */
@@ -120,21 +126,22 @@ body {
   background: #FFB6C1;
   color: #7f7f7f; 
   font-weight: bold;
-  border-radius: 5px;
+  padding: 15px;
+  /* border-radius: 5px; */
 }
  
-.box {
+/* .box {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-top: 0;
-}
+} */
 
 /* Projects*/
 .screen {
-/*   margin: 0 auto;  */
-  height: 500px;
-  width: 350px;
- padding-left: 20px;
+  margin: 0 auto; 
+  height: 400px;
+  width: 250px;
+  padding-left: 20px;
   /* border-radius: 5px; */
 }
 
@@ -157,24 +164,21 @@ body {
 }
 
 .font-subtitle {
-  font-size: 18px;
+  margin-left: 5px;
+  font-size: 17px;
   padding-top: 5px;
   color: #f0f0e6;
   font-weight: bold;
 }
 
 .icons-size {
-  font-size: 9rem;
+  font-size: 60px;
   padding: 25px;
   border-radius: 5px;
 }
 
 .margin {
   padding: 4em;
-}
-
-.mg-btn {
-  margin-bottom: 25px;
 }
 
 
@@ -202,7 +206,7 @@ body {
 }
 
 .font-size {
-  font-size: 18px;
+  font-size: 17px;
   padding: 10px;
 /*   text-align: center; */
 }

@@ -38,8 +38,8 @@ body {
 
 .bg-container {
   height: 100vh;
-  margin-top: 120px;
-  margin-bottom:  60px;
+  margin-top: 100px;
+  /* margin-bottom:  60px; */
 }
 
 .big-container {
@@ -79,10 +79,10 @@ body {
   width:70%;
 }
 
-.jumbotron {
- /*  background-color: #999; */
- /*  background-color:#fcfcfc; */
-}
+/* .jumbotron {
+  background-color: #999;
+  background-color:#fcfcfc;
+} */
 
 .resume {
   padding-right: 10px;
@@ -98,10 +98,8 @@ body {
  /*  border-radius: 5px; */
 }
 
-.justify {
-  text-align:justify;
-  padding-left: 3em;
-}
+/* 
+ */
 
 .btn-container {
   font-size: 17px;
@@ -146,6 +144,21 @@ body {
 }
 
 /* Skills */
+/* .pro {
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ */
+
+.justify-content {
+  padding: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .tech-skills {
   background-color: #808080;
   padding: 4em;

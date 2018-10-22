@@ -1,0 +1,154 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #3B3939;
+}
+
+/* NAVBAR */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.2em;
+}
+
+/* HOME  */
+.home-container {
+  background-image: url('https://static.wixstatic.com/media/dd1d96_6a3c4c12652e4f97958e9198e9c9b9e9~mv2_d_6402_3602_s_4_2.jpg/v1/fill/w_1024,h_541,al_c,q_85,usm_0.66_1.00_0.01/dd1d96_6a3c4c12652e4f97958e9198e9c9b9e9~mv2_d_6402_3602_s_4_2.webp');
+  color: #f1f1f1;
+  width: 100%;
+  height:100vh;
+  background-size: cover;   
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.intro-container {
+    color: #3f3d3d;
+    margin: auto;
+}
+
+.intro-container h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #353333;
+  /* padding: 0px 7px; */
+  font-size: 47px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+}
+
+.intro-container p {
+  color: #3e4141;
+  font-size: 18px;
+  color: #E13381;
+/*   letter-spacing: 0.2em; */
+}
+
+/* ABOUT ME */
+
+.gray-container {
+  background-color: #f1f1f1;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  line-height: 30px;
+}
+
+.big-title {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #E13381;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+
+.photo {
+  -webkit-filter: grayscale(100%);  
+  filter: grayscale(100%);  
+}
+
+.text-justify {
+  text-align: justify;
+  font-size: 18px;
+}
+
+/* SKILLS */
+
+.white-container {
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 90px;
+ /*  background: pink; */
+}
+
+.md-title {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #3f3d3d;
+  letter-spacing: 1px;
+  line-height: 18px;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-weight: bold;
+} 
+
+.icons {
+  width: 65px;
+  height: 65px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.icons-text {
+  text-transform: uppercase;
+  color: #3e4141;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+}
+
+/* PROJECTS */
+.screen {
+  margin: 0 auto; 
+  height: 300px;
+  width: 170px;
+  margin-left: 25%;
+  /* padding-left: 20px; */
+}
+
+/* CONTACT */
+
+.icons-social {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-filter: grayscale(100%);  
+  filter: grayscale(100%);  
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #353333 ; 
+  padding-top: 25px; 
+  padding-bottom: 25px;
+}
+
+.made {
+  color: #f1f1f1;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+}
+
+
+
+
+
+
+

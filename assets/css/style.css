@@ -172,8 +172,8 @@ footer {
 
 .me {
   border: 2px solid #fff;
-  -webkit-filter: grayscale(100%);  
-  filter: grayscale(100%);  
+ /*  -webkit-filter: grayscale(100%);  
+  filter: grayscale(100%);   */
 }
 
 

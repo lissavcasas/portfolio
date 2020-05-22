@@ -60,9 +60,11 @@ font-weight: 700;
 }
 
 .intro-container p {
+font-family: 'Source Sans Pro', sans-serif;
 color: #3e4141;
-font-size: 18px;
-color: #FF7878;
+font-size: 22px;
+font-weight: 200;
+color: #E13381;
 /*   letter-spacing: 0.2em; */
 }
 
@@ -161,7 +163,7 @@ letter-spacing: 0.2em;
 /* PROJECTS */
 .screen {
 margin: 0 auto; 
-height: 300px;
+height: 340px;
 width: 170px;
 /* margin-left: 25%; */
 /* padding-left: 20px; */
